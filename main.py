@@ -48,7 +48,7 @@ if __name__ == "__main__":
                 audio = recognizer.listen(source,timeout=5, phrase_time_limit=3)
             # Recognize speech using Google Web Speech API
             wakeupcall= recognizer.recognize_google(audio)
-            if(wakeupcall.lower() == "mikasa"):
+            if(wakeupcall.lower() == "fury arise"):
                 print("Wake word detected:")
                 speak("i stand ready my lord")
                 #listen for the next command
